@@ -46,3 +46,24 @@ True
 False
 True
 """
+
+x = "Dicoding"
+y = "Indonesia"
+
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+
+"""
+Output:
+
+False
+True
+False
+True
+False
+True
+"""
