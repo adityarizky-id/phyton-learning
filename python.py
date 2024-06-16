@@ -134,3 +134,17 @@ print(f"Panjang list: {panjang}")
 print(f"Nilai maksimal: {maksimal}")
 print(f"Nilai minimal: {minimal}")
 print(f"Jumlah angka 605132: {banyak}")
+
+#--------------------------------------------------------
+#Ekspresi Phyton
+#--------------------------------------------------------
+
+angka = [2, 4, 6, 8]
+huruf = ['P', 'Y', 'T', 'H', 'O', 'N']
+gabung = angka + huruf
+
+print(gabung)
+"""
+Output:
+['P', 'Y', 'T', 'H', 'O', 'N', 'P', 'Y', 'T', 'H', 'O', 'N']
+"""
