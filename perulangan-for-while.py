@@ -111,3 +111,79 @@ Huruf saat ini: i
 Huruf saat ini: n
 Huruf saat ini: g
 """
+
+#Else setelah For 
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    if num == 6:
+        print("Angka ditemukan! Program berhenti!")
+        break
+else:
+    print("Angka tidak ditemukan.")
+
+"""
+Output:
+Angka tidak ditemukan.
+"""
+
+#Else setelah While
+count = 0
+
+while count < 3:
+    print("Dicoding Indonesia")
+    count += 1
+else:
+    print("Blok else dieksekusi karena kondisi pada while salah (3<3 == False).")
+
+
+"""
+Output:
+Dicoding Indonesia
+Dicoding Indonesia
+Dicoding Indonesia
+Blok else dieksekusi karena kondisi pada while salah (3<3 == False).
+"""
+
+n = 10
+while n > 0:
+    n = n - 1
+    if n == 7:
+        break
+    print(n)
+else:
+    print("Loop selesai")
+
+"""
+Output:
+9
+8
+"""
+
+#pass statement
+#Pass statement adalah pernyataan yang digunakan jika Anda menginginkan sebuah pernyataan atau blok pernyataan (statement), tetapi tidak ada tindakan atau program tidak melakukan apa pun.
+x = 10
+
+if x > 5:
+    pass
+else:
+    print("Nilai x tidak memenuhi kondisi")
+
+"""
+Output:
+
+
+"""
+
+#list comprehension
+angka = [1, 2, 3, 4]
+pangkat = []
+for n in angka:
+  pangkat.append(n**2)
+print(pangkat)
+
+"""
+Output:
+[1, 4, 9, 16]
+
+"""
