@@ -187,3 +187,12 @@ Output:
 [1, 4, 9, 16]
 
 """
+
+angka = [1, 2, 3, 4]
+pangkat = [n**2 for n in angka]
+print(pangkat)
+
+"""
+Output:
+[1, 4, 9, 16]
+"""
