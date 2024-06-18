@@ -73,3 +73,9 @@ Output:
 Kamu mendapatkan nilai A, tetapi perilaku Anda kurang baik
 Perbaiki lagi ya!
 """
+
+i = 11 
+if i<10:    
+    print(i) 
+else:    
+    print("Nilai yang dimasukkan tidak boleh lebih besar dari 10") 
